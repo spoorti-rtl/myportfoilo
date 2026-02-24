@@ -1,0 +1,29 @@
+#education {
+  padding: 50px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.education-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.education-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.education-card h3 {
+  color: #007acc;
+}
+
+.education-card p {
+  margin: 5px 0;
+  color: #333;
+}
